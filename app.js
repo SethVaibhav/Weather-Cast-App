@@ -10,9 +10,8 @@ res.sendFile(__dirname+ "/index.htm");
     
     
     /*const query="delhi";
-    const id="c4e02d3fb61986db36f25fde7007e82d";
     const unit="metric";
-const url="https://api.openweathermap.org/data/2.5/weather?q=" + query + " &appid=" + id + "&units=" + unit;
+const url="https://api.openweathermap.org/data//weather?q=" + query + " &appid=" + id + "&units=" + unit;
 https.get(url,function(response){
 console.log(response.statusCode);
 response.on("data",function(data){
@@ -32,9 +31,9 @@ response.on("data",function(data){
 app.post("/",function(req,res){
 console.log(req.body.cityName);
 const query=req.body.cityName;
-    const id="c4e02d3fb61986db36f25fde7007e82d";
+    const id="";
     const unit="metric";
-const url="https://api.openweathermap.org/data/2.5/weather?q=" + query + " &appid=" + id + "&units=" + unit;
+const url="https://api.openweathermap.org/data//weather?q=" + query + " &appid=" + id + "&units=" + unit;
 https.get(url,function(response){
 console.log(response.statusCode);
 response.on("data",function(data){
